@@ -25,7 +25,7 @@ protocol handleDeleteAction {
     
     @IBAction func didDelete(_ sender: Any) {
         
-        self.delegate?.didDeleteButtonClicked(sender)
+        self.delegate?.didDeleteButtonClicked(sender as! UIButton)
        
         
     }

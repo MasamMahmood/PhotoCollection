@@ -8,11 +8,6 @@
 
 import UIKit
 
-struct PhotoModel: Codable{
-    let parentId: Int?
-    let path: String?
-    let identifier: String?
-}
 
 class ViewController: UIViewController, UINavigationControllerDelegate {
 
@@ -35,7 +30,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         super.viewDidLoad()
        
         
-        deleteAlertView.delegate = self
+       
         
         images = []
         data = []
